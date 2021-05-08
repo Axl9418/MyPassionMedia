@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Add New Item</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="items.js"></script>
+</head>
+<body>
+	<h2>New Item</h2>
+	<div class="container">
+		<form id="newitem" method="post">
+			
+			<input type="hidden" 	id="itemid" 	name="itemid" placeholder="Item Id" value="0">
+			<label for="itemname">Item Name:</label>
+			<input type="text" 		id="itemname" 	class="new"   name="itemname" placeholder="Text"  value=""><br><br>
+			<label for="weight">Weight:</label>
+			<input type="number" 	id="weight" 	class="new"   name="weight"   placeholder="(kg)"  value=""><br><br>
+			<label for="length">Length:</label>
+			<input type="number" 	id="length" 	class="new"   name="length"   placeholder="(cm)"  value=""><br><br>
+			<label for="width">Width:</label>
+			<input type="number" 	id="width" 		class="new"   name="width" 	  placeholder="(cm)"  value=""><br><br>
+			<label for="height">Height:</label>
+			<input type="number" 	id="height" 	class="new"   name="height"   placeholder="(cm)"  value=""><br><br>			
+
+			<input type="button" id="btn-save" class="btn" value="Save">		
+
+		</form>
+	</div>
+</body>
+</html>
+	
